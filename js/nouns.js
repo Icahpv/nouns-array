@@ -57,7 +57,9 @@ const handleItem = function(item) {
 
 //console.log(handleItem)
 
+
+// 3. Finally, using `Array.forEach()`: invoke `handleItem()` for each item in the noun array to create your comma-separated list.
+
 nouns.forEach(handleItem)
 list.innerHTML = `<strong>List of nouns:</strong> ${output} `
 
-// 3. Finally, using `Array.forEach()`: invoke `handleItem()` for each item in the noun array to create your comma-separated list.
